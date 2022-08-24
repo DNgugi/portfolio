@@ -253,6 +253,10 @@ nav {
   width: 100%;
 }
 
+#work ul.card-content-list li {
+  float: left;
+}
+
 /* About Section */
 #about {
   margin-top: 5em;
