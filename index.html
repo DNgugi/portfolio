@@ -454,19 +454,20 @@
 
       <section id="contact-form" class="flex-col">
         <form action="https://formspree.io/f/mnqrnpkd" method="post">
-          <div class="input-group">
-            <label for="name">Full Name*</label>
+
+          <div class="input-group text">
             <input type="text" name="name" id="name" required max="30" placeholder="Alex Loremipsum">
           </div>
-          <div class="input-group">
-            <label for="email">Email*</label>
+          <br>
+          <div class="input-group email">
             <input type="email" name="email" id="email" required placeholder="Alex@loremipsum.com">
           </div>
-          <div class="input-group">
-            <label for="message">Message*</label>
+          <br>
+          <div class="input-group textarea">
             <textarea name="message" id="message" required placeholder="Type a message here"></textarea>
           </div>
-            <input type="submit" class="btn btn-primary" name="submit" value="Send Message" />
+          <br>
+            <input class="sumbit-button" type="submit" class="btn btn-primary" name="submit" value="Get in touch" />
         </form>
       </section>
     </main>
