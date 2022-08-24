@@ -248,6 +248,11 @@ nav {
   padding-top: 2em;
 }
 
+#work ul.card-content-list {
+  display: inline-block;
+  width: 100%;
+}
+
 /* About Section */
 #about {
   margin-top: 5em;
